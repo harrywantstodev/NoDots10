@@ -1,0 +1,9 @@
+Package: com.harrywantstodev.nodots10
+Name: NoDots10
+Depends: mobilesubstrate
+Version: 0.4.0-1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: harrywantstodev
+Author: harrywantstodev
+Section: Tweaks

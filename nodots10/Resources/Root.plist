@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.harrywantstodev.nodots10</string>
+            <key>key</key>              <string>SBisEnabled</string>
+            <key>label</key>            <string>Hide SpringBoard &#38; Folder Dots</string>
+            <key>PostNotification</key> <string>com.harrywantstodev.nodots10/settingschanged</string>
+          </dict>
+		      <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.harrywantstodev.nodots10</string>
+            <key>key</key>              <string>CCisEnabled</string>
+            <key>label</key>            <string>Hide Control Center Dots</string>
+            <key>PostNotification</key> <string>com.harrywantstodev.nodots10/settingschanged</string>
+        </dict>
+		    <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.harrywantstodev.nodots10</string>
+            <key>key</key>              <string>LSisEnabled</string>
+            <key>label</key>            <string>Hide LockScreen Dots</string>
+            <key>PostNotification</key> <string>com.harrywantstodev.nodots10/settingschanged</string>
+
+        </dict>
+        <dict>
+                <key>cell</key>             <string>PSSwitchCell</string>
+                <key>default</key>          <true/>
+                <key>defaults</key>         <string>com.harrywantstodev.nodots10</string>
+                <key>key</key>              <string>WidgetisEnabled</string>
+                <key>label</key>            <string>Hide New Widget Dot</string>
+                <key>PostNotification</key> <string>com.harrywantstodev.nodots10/settingschanged</string>
+
+        </dict>
+        <dict>
+                    <key>cell</key>             <string>PSSwitchCell</string>
+                    <key>default</key>          <true/>
+                    <key>defaults</key>         <string>com.harrywantstodev.nodots10</string>
+                    <key>key</key>              <string>BetaisEnabled</string>
+                    <key>label</key>            <string>Hide Beta Dot</string>
+                    <key>PostNotification</key> <string>com.harrywantstodev.nodots10/settingschanged</string>
+
+          </dict>
+          <dict>
+                        <key>cell</key>             <string>PSSwitchCell</string>
+                        <key>default</key>          <true/>
+                        <key>defaults</key>         <string>com.harrywantstodev.nodots10</string>
+                        <key>key</key>              <string>NewisEnabled</string>
+                        <key>label</key>            <string>Hide Updated App Dot</string>
+                        <key>PostNotification</key> <string>com.harrywantstodev.nodots10/settingschanged</string>
+
+            </dict>
+            <dict>
+                          <key>cell</key>             <string>PSSwitchCell</string>
+                          <key>default</key>          <true/>
+                          <key>defaults</key>         <string>com.harrywantstodev.nodots10</string>
+                          <key>key</key>              <string>NCisEnabled</string>
+                          <key>label</key>            <string>Hide Notification Center Dots</string>
+                          <key>PostNotification</key> <string>com.harrywantstodev.nodots10/settingschanged</string>
+
+              </dict>
+            <dict>
+        			<key>FooterText</key>
+        			<string>Respring to apply changes.</string>
+        			<key>cell</key>
+        			<string>PSGroupCell</string>
+        		</dict>
+        		<dict>
+        			<key>action</key>
+        			<string>respring</string>
+        			<key>cell</key>
+        			<string>PSButtonCell</string>
+        			<key>label</key>
+        			<string>Respring to Apply Changes</string>
+              <key>icon</key>
+              <string>respring@3x.png</string>
+        		</dict>
+
+
+            <dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>footerText</key>
+            <string>Tweet me if find any dots that need hiding</string>
+            <key>label</key>
+            <string>Support</string>
+            </dict>
+            <dict>
+            <key>big</key>
+            <string>56</string>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+            <key>label</key>
+            <string>eta_son</string>
+            <key>user</key>
+            <string>eta_son</string>
+            </dict>
+    </array>
+    <key>title</key>
+    <string>NoDots10</string>
+</dict>
+</plist>
